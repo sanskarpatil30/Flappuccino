@@ -1,92 +1,132 @@
-<p align="center">
-  <a href="https://github.com/sanskarpatil30/Flappuccino">
-    <img src="https://img.shields.io/github/stars/sanskarpatil30/Flappuccino?style=social" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/sanskarpatil30/Flappuccino/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/sanskarpatil30/Flappuccino/python-app.yml?branch=main" alt="Build status">
-  </a>
-  <img src="https://img.shields.io/github/languages/top/sanskarpatil30/Flappuccino" alt="Top language">
-  <img src="https://img.shields.io/github/license/sanskarpatil30/Flappuccino" alt="License">
-</p>
+☕🐤 FLAPPUCCINO — A Coffee-Powered Arcade Game
+<p align="center"> <img src="flappuccino demo.gif" width="420px" alt="Gameplay Demo"> </p> <p align="center"> <strong>Flap. Dodge. Sip. Repeat.</strong><br> A cozy coffee-themed arcade game brewed with Python & Pygame. </p>
+🌟 Project Badges
+<p align="center"> <img src="https://img.shields.io/github/stars/sanskarpatil30/Flappuccino?style=social" alt="Stars"> <img src="https://img.shields.io/github/forks/sanskarpatil30/Flappuccino?style=social" alt="Forks"> <img src="https://img.shields.io/github/languages/top/sanskarpatil30/Flappuccino" alt="Top Language"> <img src="https://img.shields.io/badge/Pygame-2.5.0-brightgreen" alt="Pygame Version"> <img src="https://img.shields.io/github/license/sanskarpatil30/Flappuccino" alt="License"> </p>
+🎮 About the Game
 
+Flappuccino is a fast-paced, coffee-themed arcade adventure where you guide a flying coffee cup through a series of obstacles. Inspired by classic side-scrollers, the game adds its own charm with smooth animations, hand-drawn assets, cozy café aesthetics, and addictive gameplay.
 
+Whether you're a gamer, a developer, or a coffee lover — you’ll enjoy this brew.
 
+🕹️ Gameplay Preview
+<p align="center"> <img src="flappuccino demo.gif" width="380px" alt="Gameplay GIF"> </p>
+🔥 Features
+☕ Coffee-Themed Visuals — Unique sprites and warm café atmosphere
+🎵 Smooth Animations & SFX — Fun and responsive audio feedback
+⚡ Fast Gameplay — Simple controls with increasing difficulty
+🧩 Modular Codebase — Easy to modify and expand
+🖥️ Lightweight & Open Source — Runs smoothly on most devices
+🎯 Controls
+Action	Key
+Flap / Jump	SPACE or ↑ Up Arrow
+Retry	Click on retry button
+Pause (if added)	ESC
+📦 Download / Play
+🪟 Windows Build
 
-☕🐤 Flappuccino – A Coffee-Powered Arcade Game
+(Add your itch.io link or installer here when ready.)
 
-Flappuccino is a fast-paced, caffeine-infused arcade game originally created using Python and Pygame.
-Dodge obstacles, flap through never-ending challenges, and beat your high score—
-all while in a cozy coffee-themed world.
+📁 Source Code
 
-🎮 Gameplay Preview
+Clone the repo:
 
-![alt text](<flappuccino demo.gif>)
-📖 About the Game
+git clone https://github.com/sanskarpatil30/Flappuccino.git
+cd Flappuccino
+⚙️ Run From Source
+1️⃣ Install Python
 
-Flappuccino is inspired by classic side-scrolling arcade games but adds its own charm with
-smooth controls, polished animations, and a warm café-styled theme.
-
-
-
-🚀 How to Play
-Press SPACE or UP ARROW to flap
-Avoid colliding with obstacles
-Survive as long as possible
-Beat your previous score and set a new record!
-💾 Download / Play
-✔ Windows Build
-
-
-
-🧑‍💻 Run From Source
-1. Install Python
-
-Download the latest version:
+Download from:
 👉 https://www.python.org/downloads/
 
-2. Install Pygame
+2️⃣ Install Pygame
 
-If the standard installation doesn’t work, use the alternatives:
+Depending on OS:
 
 Windows
 python -m pip install pygame
 Mac
 python3 -m pip install pygame
 Linux
+python3 -m pip install pygame
+3️⃣ Run the Game
 
-Same as Windows.
-
-3. Run the Game
-
-Ensure main.py is in the same directory as the ./data folder, then run:
+Make sure your terminal is inside the project folder:
 
 python main.py
-📁 Project Structure
+🧰 Requirements
+pygame
+
+(Automatically installed through pip)
+
+🗂️ Project Structure
 Flappuccino/
-│── data/
-│   ├── sprites/
-│   ├── sounds/
-│   └── fonts/
 │── main.py
+│── player.py
+│── background.py
+│── bean.py
+│── button.py
+│── utils.py
 │── README.md
-└── requirements.txt (optional)
-🔧 Tech Stack
-Language: Python
-Library: Pygame
-Tools: VS Code / Any Python IDE
-🧩 Future Improvements (Optional Ideas)
-Global leaderboard
-Custom skins / unlockable characters
-Power-ups (speed boost, shield, slow-motion)
-Enhanced sound design
-Mobile-friendly port
+│── LICENSE
+│── flappuccino demo.gif
+│
+└── data/
+    ├── fonts/
+    │     └── font.otf
+    ├── gfx/
+    │     ├── player.png
+    │     ├── bg.png
+    │     ├── shop.png
+    │     ├── indicators...
+    │     └── etc...
+    └── sfx/
+          ├── flap.wav
+          ├── bean.wav
+          ├── dead.wav
+          └── upgrade.wav
+🚀 Releases
+
+Latest stable version:
+👉 (Add release link when created)
+
+To create a release:
+
+Go to Releases
+Click Draft a new release
+Tag: v1.0.0
+Upload your Windows build / ZIP
 🤝 Contributing
 
 Contributions are welcome!
-If you want to propose changes or improvements:
+To propose improvements:
 
-Open an issue to discuss your idea
-Submit a pull request
+Fork the repo
+Create a new branch
+Commit changes
+Open a pull request
 
-Feel free to fork the repository and use the code for any non-commercial purposes.
+For major changes → open an issue first.
 
+📜 License
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+🎉 Credits
+
+Developed by Sanskar Patil (sanskarpatil30)
+Assets, gameplay logic, and design crafted with love and caffeine ☕
+
+❤️ Support
+
+If you like this project, please consider:
+
+⭐ Starring the repo
+🍴 Forking it
+📢 Sharing with others
+
+Every star motivates future improvements!
+
+If you want, I can also generate:
+🔥 A professional GitHub banner
+🔥 A
