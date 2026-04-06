@@ -1,7 +1,6 @@
 ☕🐤 Flappuccino – A Coffee-Powered Arcade Game
 
-Flappuccino is a fast-paced, caffeine-infused arcade game originally created for the
-PyGame Community New Year’s Jam using Python and Pygame.
+Flappuccino is a fast-paced, caffeine-infused arcade game originally created using Python and Pygame.
 Dodge obstacles, flap through never-ending challenges, and beat your high score—
 all while in a cozy coffee-themed world.
 
