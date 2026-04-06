@@ -59,6 +59,7 @@ pygame
 (Automatically installed through pip)
 
 🗂️ Project Structure
+
 Flappuccino/
 │── main.py
 │── player.py
@@ -84,17 +85,7 @@ Flappuccino/
           ├── bean.wav
           ├── dead.wav
           └── upgrade.wav
-🚀 Releases
 
-Latest stable version:
-👉 (Add release link when created)
-
-To create a release:
-
-Go to Releases
-Click Draft a new release
-Tag: v1.0.0
-Upload your Windows build / ZIP
 🤝 Contributing
 
 Contributions are welcome!
@@ -107,10 +98,6 @@ Open a pull request
 
 For major changes → open an issue first.
 
-📜 License
-
-This project is licensed under the MIT License.
-See the LICENSE file for details.
 
 🎉 Credits
 
