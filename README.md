@@ -127,6 +127,4 @@ If you like this project, please consider:
 
 Every star motivates future improvements!
 
-If you want, I can also generate:
-🔥 A professional GitHub banner
-🔥 A
+
