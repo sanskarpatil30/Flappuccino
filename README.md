@@ -1,3 +1,17 @@
+<p align="center">
+  <a href="https://github.com/sanskarpatil30/Flappuccino">
+    <img src="https://img.shields.io/github/stars/sanskarpatil30/Flappuccino?style=social" alt="GitHub stars">
+  </a>
+  <a href="https://github.com/sanskarpatil30/Flappuccino/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/sanskarpatil30/Flappuccino/python-app.yml?branch=main" alt="Build status">
+  </a>
+  <img src="https://img.shields.io/github/languages/top/sanskarpatil30/Flappuccino" alt="Top language">
+  <img src="https://img.shields.io/github/license/sanskarpatil30/Flappuccino" alt="License">
+</p>
+
+
+
+
 ☕🐤 Flappuccino – A Coffee-Powered Arcade Game
 
 Flappuccino is a fast-paced, caffeine-infused arcade game originally created using Python and Pygame.
