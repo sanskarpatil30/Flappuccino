@@ -24,7 +24,7 @@ Pause (if added)	ESC
 📦 Download / Play
 🪟 Windows Build
 
-(Add your itch.io link or installer here when ready.)
+
 
 📁 Source Code
 
